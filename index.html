@@ -1,24 +1,23 @@
-<html>
-    <head>
-        <title>login</title>
-        <link rel="icon" href="L1.png">
-    </head>
-    <body bgcolor="#DDD0C8">
-        <br><br>
-        <center>
-            <br><br>
-            <h1><tt><big><b>Application login</b></big></tt></p></h1>
-            
-            <br><br>
-            <form action="" method="post">
-                <b>User Name: <input type="text" placeholder="Enter Your UserName" required="+@gmai.com" title="Enter ex:abc@gmail.com"></b> <br> <br>
-                <b>Password: <input type="password" placeholder="Enter the password" required="[0-9A-Za-z]*" ></b> <br><br>
-                <a href="info.html"><button>Login</button></a>
-            
-            </form>
-            <p><tt>create new account <a href="reg.html">Register</a></tt></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="icon" href="L1.png" />
+</head>
+<body style="background-color: #DDD0C8;">
+    <center>
+        <h1>Application login</h1>
+        <form action="info.html">
+            User name:
+            <input type="text" name="username" placeholder="enter your name" title="enter user name" pattern="[0-9a-zA-Z]*@gmail.com{1}" ><br><br>
 
-        </center>
-         
-    </body>
+            Password:
+            <input type="password" name="password" placeholder="enter password here" title="enter password here" pattern="[a-zA-Z0-9]*" ><br><br>
+
+           <input type="submit" value="login">
+        </form>
+        <p>create new account <a href="reg.html">Register</a></p>
+    </center>
+</body>
 </html>
