@@ -1,0 +1,56 @@
+#inh1{
+    color: rgb(204, 115, 47);
+    background-color: white;
+}
+#un{
+    font-size: large;
+}
+#pas{
+    font-size: large;
+}
+#ipas{
+    
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#iun{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#lo{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+}
+#ip{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: white;
+    width: 300px;
+}
+
+#regbo{
+    background-color: rgb(203, 184, 161);
+}
+
+
+#h11{
+    text-align: center;
+    background-color: orange;
+    color: green;
+}
+
+#ret1{
+    background-color: rgb(221, 222, 192);
+    border-radius: 10px;
+    width: 80%;
+   height: 500px;
+    text-align: center;
+    margin: 10%;
+}
+
+#sub{
+    text-align: center;
+    height: 50px;
+    width: 500px;
+
+}

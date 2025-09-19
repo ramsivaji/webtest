@@ -1,34 +1,58 @@
-<html>
-    <head>
-        <title> Register</title>
-         <link rel="icon" href="L1.png">
-    </head>
-    <body bgcolor="#E6E6FA">
-        <br>
-        <br>
-        
-        <center>
-            
-            <h1>Register</h1>
-            <form action="" method="post">
-            <hr><br>
-            <p>Name:     <input type="text" placeholder="Enter the number"></p>
-            <br>
-            <p>User Name:   <input type="text" placeholder="enter user name" pattern="+[@gmil.com]$" title="ex:abc@gmail.com"></p>
-            <br>
-            <p> New password:   <input type="text" placeholder="Ennter the password" pattern="[0-9a-zA-Z]*"></p>
-            <br>
-            <p>Conform Password:    <input type="text" placeholder="Re-Enter the password" pattern="[0-9a-zA-Z]*"></p>
-            <br>
-            <a href="index.html">
-                               <button type="button">Submit</button>
-                                                                           </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="regbo">
+    <br><br>
+    
+    <div id="h11"><h1><b><big>Register</big></b></h1> </div>
 
+    <table id="ret1" border="6" >
+        <tr>
+            <td><label for="">First Name:</label></td>
+            <td><input type="text" placeholder="enter the frist name"></td>
+        </tr>
+        <tr>
+            <td><label for="">Last Name</label></td>
+            <td><input type="text" name="" id="" placeholder="enterthe last name"></td>
+        </tr>
 
-            
-            </form>
-            
-        </center>
+        <tr>
+            <td><label for="">User Name</label></td>
+            <td><input type="text" placeholder="enter the user name" pattern="[A-Z]{1}[A-Za-z0-9]*" required title="First letter should be captal"></td>
+
+        </tr>
+        <tr>
+            <td><label for="">Password</label></td>
+            <td><input type="password" placeholder="Enter the password"></td>
+        </tr>
+        <tr>
+            <td><label for="">Confirm password</label></td>
+            <td><input type="password" placeholder="Confirm the password"></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td><input type="radio" name="gen">Male
+                <input type="radio" name="gen">Female
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile number</label></td>
+            <td><input type="tel" placeholder="+91 623XXXXXXX" pattern="[6-9]{1}[0-9]{9}" title="Enter the correct value" value="+91 "></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a href="index.html"><input type="submit" value="SignUp" id="sub"></a>
+            </td>
+        </tr>
+
         
-    </body>
+    </table>
+    
+    
+</body>
 </html>

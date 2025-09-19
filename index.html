@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <title>Login</title>
     <link rel="icon" href="L1.png" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: #DDD0C8;">
     <center>
-        <h1>Application login</h1>
+        <h1 id="inh1">Application login</h1>
         <form action="info.html">
-            User name:
-            <input type="text" name="username" placeholder="enter your name" title="enter user name" pattern="[0-9a-zA-Z]*@gmail.com{1}" value="a"><br><br>
+            <label id="iun" for="">username</label>
+            <input  id="un" type="text" name="username" placeholder="enter your name" title="enter user name" pattern="[0-9a-zA-Z]*@gmail.com{1}" value="a"><br><br>
 
-            Password:
-            <input type="password" name="password" placeholder="enter password here" title="enter password here" pattern="[a-zA-Z0-9]*" value="a"><br><br>
+            <label for="" id="ipas">Password</label>
+            <input id="pas" type="password" name="password" placeholder="enter password here" title="enter password here" pattern="[a-zA-Z0-9]*" value="a"><br><br>
 
-           <input type="submit" value="login">
+           <input type="submit" value="login" id="lo">
         </form>
-        <p>create new account <a href="reg.html">Register</a></p>
+        <br><br><br>
+        <p id="ip">create new account <a href="reg.html">Register</a></p>
     </center>
 </body>
 </html>
